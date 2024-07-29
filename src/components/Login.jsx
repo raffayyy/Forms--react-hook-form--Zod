@@ -36,7 +36,7 @@ function Login() {
         onSubmit={handleSubmit(onSubmit)}
       >
         {errors.username && (
-          <p className="rounded bg-red-100 px-2 py-1 text-red-500 w-2/3">
+          <p className="w-2/3 rounded bg-red-100 px-2 py-1 text-red-500">
             {errors.username.message}
           </p>
         )}
@@ -47,7 +47,7 @@ function Login() {
           className="rounded border-2 border-gray-200 px-2 py-1"
         />
         {errors.password && (
-          <p className="rounded bg-red-100 px-2 py-1 text-red-500 w-2/3">
+          <p className="w-2/3 rounded bg-red-100 px-2 py-1 text-red-500">
             {errors.password.message}
           </p>
         )}
