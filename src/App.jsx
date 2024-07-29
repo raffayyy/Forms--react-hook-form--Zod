@@ -1,19 +1,19 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
-import './App.css'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Login from './components/Login';
 
 function App() {
-
   return (
     <>
-      <BrowserRouter>
+      <Login />
+      {/* <BrowserRouter>
         <Routes>
           <Route path="/" element={<HomePage/>} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/signup" element={<SignUpPage />} />
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
     </>
-  )
+  );
 }
 
-export default App
+export default App;
